@@ -5,12 +5,20 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RankingComponent } from './ranking/ranking.component';
+import { FormsComponent } from './forms/forms.component';
+import { ButtonComponent } from './button/button.component';
+import { VoteButtonsComponent } from './vote-buttons/vote-buttons.component';
+import { ListComponent } from './list/list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    RankingComponent
+    RankingComponent,
+    FormsComponent,
+    ButtonComponent,
+    VoteButtonsComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
